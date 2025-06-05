@@ -1,7 +1,7 @@
 import cron from 'node-cron';
 import axios from 'axios';
 
-const url = 'https://flash-md-v2-cxkv.onrender.com';
+const url = 'https://flash-md-v2-jzls.onrender.com';
 
 cron.schedule('*/14 * * * *', async () => {
   try {
